@@ -1,3 +1,11 @@
+# ============================================================================ #
+# Script: Union de datos de valores predichos y observados en 1 malla de datos
+# Autor: Luis Enrique Reyes
+# Fecha: 
+# ============================================================================ #
+
+library(tidyverse)
+
 
 ### 2000 =======================================================================
 
@@ -727,4 +735,4 @@ pm <-
 saveRDS(pm, file = "./Datos/09_tab_pm10_pm25/tab_2000_2019.rds")
 
 
-write.csv(daily_predict,"./Datos/09_tab_pm10_pm25/tab_2000_2019.csv", row.names=F)
+write.csv(pm,"./Datos/09_tab_pm10_pm25/tab_2000_2019.csv", row.names=F)
