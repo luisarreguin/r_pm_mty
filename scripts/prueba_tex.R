@@ -15,4 +15,5 @@ prueba <-
 
 plot(prueba$longitud, prueba$latitud)
 
-# Ejemplo Luis
+# Ejemplo Luis# Ejemplo Luis
+plot(prueba$longitud, prueba$latitud)
