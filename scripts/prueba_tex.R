@@ -17,3 +17,8 @@ plot(prueba$longitud, prueba$latitud)
 
 # Ejemplo Luis# Ejemplo Luis
 plot(prueba$longitud, prueba$latitud)
+
+prueba_1 <- 
+  prueba %>% 
+  filter(municipio == "Monterrey") %>% 
+  print()
