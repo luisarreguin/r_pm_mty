@@ -65,8 +65,7 @@ c_ageb <-
   print()
 
 sites <-
-  st_read("./Capas/zmm_sites_pm.shp") %>% 
-  select(site, geometry) %>% 
+  st_read("./Capas/sites_prj.shp") %>% 
   print()
 
 ### 2000 ===========================
