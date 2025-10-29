@@ -3,6 +3,7 @@ library(haven)
 library(janitor)
 library(sf)
 
+# Cargo la malla de pm2.5
 pm25 <- 
   read_rds("./Datos/tab_2000_2019.rds") %>% 
   select(year, site, pm25) %>% 
